@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.swiper-container{
+    width:100vw;
+    height:20vh;
+    /*background:red;*/
+}
+.swiper-slide img{
+    width:100vw;
+    height:30vh;
+}
+.type{
+    width:100vw;
+    height:10vh;
+    background: cornflowerblue;
+    color:#fff;
+    line-height:70px;
+    font-size:24px;
+    text-align:center;
+}
+.project{
+    width:50vw;
+    height:10vh;
+    float:left;
+}
+.type .active{
+    background: green;
+    color:#fff;
+}
+.done{
+    width:50vw;
+    height:10vh;
+    float:left;
+}
+.content{
+    width:100vw;
+    height:60vh;
+    background:#eeeeee;
+    position: relative;
+    overflow:auto;
+}
+.itemlist li{
+    width:100vw;
+    height:6vh;
+    border-bottom:2px solid #eeeeee;
+    background:#fff;
+    padding-left:10px;
+    position: relative;
+}
+.itemlist li p{
+    display: block;
+    float:left;
+    width:60vw;
+    height:6vh;
+    line-height:6vh;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.itemlist li time{
+    width: 30vw;
+    height:6vh;
+    float:left;
+    line-height:3vh;
+    font-size:12px;
+}
+.itemlist li span{
+    float:left;
+    width: 10vw;
+    height:6vh;
+    line-height:7vh;
+    font-size:26px;
+}
+.active{
+    color:red;
+}
+.changestate,.del{
+    width:20vw;
+    height:6vh;
+    background:red;
+    color:#fff;
+    text-align: center;
+    line-height:6vh;
+    position: absolute;
+    top:0;
+    right:-20vw;
+}
+.clear{
+    clear:both;
+}
+.add{
+    width:100vw;
+    height:10vh;
+    background:orangered;
+    color:#fff;
+    line-height:10vh;
+    font-size:18px;
+    text-align:center;
+
+}
+.mask{
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,.6);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:999;
+    display:none;
+}
+#text{
+    width:100vw;
+    height:40vh;
+    border:none;
+    resize:none;
+    padding:10vw;
+    font-size:16px;
+}
+.submit,.update{
+    width:100vw;
+    height:10vh;
+    font-size:20px;
+    background:#f33;
+    line-height:10vh;
+    text-align:center;
+}
+.update{
+    display:none;
+}
+.cancel{
+    width:30px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    font-size:16px;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:50%;
+    margin:5px auto;
+}
